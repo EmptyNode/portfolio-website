@@ -228,15 +228,13 @@ nav ul li a:hover::after{
 .layer a{
     margin-top: 20px;
     color: #ff004f;
-    text-decoration: none;
     font-size: 18px;
     line-height: 60px;
     background: #fff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    text-align: center;
-    margin-left: 145px;
+    margin-left: 220px;
 }
 .work:hover img{
     transform: scale(1.1);
