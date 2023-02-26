@@ -234,7 +234,7 @@ nav ul li a:hover::after{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-left: 130px;
+    margin-left: 125px;
 }
 .work:hover img{
     transform: scale(1.1);
