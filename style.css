@@ -269,7 +269,6 @@ nav ul li a:hover::after {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    /* margin-left: 120px; */
 }
 
 .work:hover img {
@@ -381,7 +380,7 @@ nav .fa-solid {
 
 @media only screen and (max-width:600px) {
     #header {
-        background-image: url(images/backgroundaboutfixed.png);
+        background-image: url(images/finalbackgroundmobile.png);
     }
 
     .header-text {
