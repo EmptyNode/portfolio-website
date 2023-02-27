@@ -164,8 +164,9 @@
                     <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
-                <span id="msg"></span>
+                <div id="msg"></div>
             </div> 
+            
         </div>
     </div>
     <div class="copyright">
@@ -204,9 +205,9 @@
         const msg = document.getElementById("msg")
   
         form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response =>{
+        e.preventDefault();
+        document.getElementById("msg").innerHTML = "sending details.."
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)}).then(response =>{
             msg.innerHTML = "Message sent successfully"
             setTimeout(function(){
                 msg.innerHTML = ""
